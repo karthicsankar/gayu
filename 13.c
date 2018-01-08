@@ -6,7 +6,7 @@ void main()
   printf("Enter any number n:");
   scanf("%d", &m);
   for (count = 1; count <= m; count++) {
-      if (m % i == 0) {
+      if (m % count== 0) {
          c++;
       }
   }
