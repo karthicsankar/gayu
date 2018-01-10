@@ -5,10 +5,10 @@ int i;
 int n,a;
 printf("enter then number");
 scanf("%d",n);
-for(i=0;i<40;i++)
+for(i=0;i<=n;i++)
 {
-a=i+5;
+a=i*5;
 printf("the muliple numbers are %d",a);
 }
-retrun 0;
+getch();
 }
